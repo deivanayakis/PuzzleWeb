@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d73a2;
+    padding: 15px;
+    color: #fff;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px; /* Adjust the margin as needed to create spacing between the logo and the title */
+}
+
+.logo img {
+    width: 60px; /* Set the width of the logo image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.user-profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 40px; /* Adjust the width to the desired size */
+    height: 40px; /* Adjust the height to the desired size */
+    border-radius: 30%; /* Optional: Makes the image round */
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.user-profile:hover .profile-menu {
+    display: block;
+    background-color:rgb(197, 215, 249);
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-menu li {
+    margin-bottom: 10px;
+    color:cornsilk;
+}
+
+.profile-menu a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size:medium;
+    transition: color 0.3s;
+}
+
+.profile-menu a:hover {
+    color: #007bff;
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.profile-menu ul li {
+    margin-bottom: 10px;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color:#2d73a2;
+}
+
+.social-icon img {
+    width: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,137 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d73a2;
+    padding: 15px;
+    color: #fff;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px; /* Adjust the margin as needed to create spacing between the logo and the title */
+}
+
+.logo img {
+    width: 60px; /* Set the width of the logo image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.user-profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 40px; /* Adjust the width to the desired size */
+    height: 40px; /* Adjust the height to the desired size */
+    border-radius: 30%; /* Optional: Makes the image round */
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.user-profile:hover .profile-menu {
+    display: block;
+    background-color:rgb(197, 215, 249);
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-menu li {
+    margin-bottom: 10px;
+    color:cornsilk;
+}
+
+.profile-menu a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size:medium;
+    transition: color 0.3s;
+}
+
+.profile-menu a:hover {
+    color: #007bff;
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.profile-menu ul li {
+    margin-bottom: 10px;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 10px 10px 10px 10px;
+
+}
+
+.categories {
+    padding: 90px;
+    display: flex;
+    gap: 20px; /* Adjust the gap between buttons */
+    margin-top: 0px; /* Adjust the margin as needed */
+    justify-content: center;
+    background-image: url('homeback.jpg');
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center;
+    
+}
+
+.category-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 100px 100px 30px 30px;
+    font-size: 30px; /* Adjust the font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-button img {
+    margin-right: 10px; /* Adjust the margin between image and text */
+    max-width: 100px; /* Adjust the maximum width of the image */
+    max-height: 100px; /* Adjust the maximum height of the image */
+}
+
+.category-button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color:#2d73a2;
+}
+
+.social-icon img {
+    width: 30px;
+    margin-right: 10px;
+}
